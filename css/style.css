@@ -1,1 +1,40 @@
-/* YOUR CUSTOM STYLES */
+html,
+body,
+header,
+.view,
+.carousel,
+.carousel-item,
+.active,
+.carousel-inner { height: 100%; }
+
+.carousel-item:nth-child(1) {
+
+	background-image: url("../img/volcano.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.carousel-item:nth-child(2) {
+
+	background-image: url("../img/green-mountain.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.carousel-item:nth-child(3) {
+
+	background-image: url("../img/violet-sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+@media (min-width: 776px) {
+
+	.carousel .view ul li { display: inline; }
+
+	.carousel .view .full-bg-img ul li .flex-item { margin-bottom: 1.5rem; }
+	
+}

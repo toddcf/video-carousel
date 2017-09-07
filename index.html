@@ -2,43 +2,286 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+	<title>Nature Escape</title>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<!-- Your custom styles -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
 
-    <!-- Start your project here-->
-    <div style="height: 100vh">
-        <div class="flex-center flex-column">
-            <h1 class="animated fadeIn mb-4">Material Design for Bootstrap</h1>
+	<!--Main Navigation-->
+	<header>
 
-            <h5 class="animated fadeIn mb-4">Thank you for using our product. We're glad you're with us.</h5>
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top deep-purple">
+			<div class="container">
+				<a class="navbar-brand" href="#">Nature Escape</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations 
+							</a>
+							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="#" data-target="#carousel-example-3" data-slide-to="0">Volcano</a>
+								<a class="dropdown-item" href="#" data-target="#carousel-example-3" data-slide-to="1">Green Mountain</a>
+								<a class="dropdown-item" href="#" data-target="#carousel-example-3" data-slide-to="2">Violet Sky</a>
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!--/.Navbar-->
 
-            <p class="animated fadeIn text-muted">MDB Team</p>
-        </div>
-    </div>
-    <!-- /Start your project here-->
+	<!--Carousel Wrapper-->
+	<div id="carousel-example-3" class="carousel slide carousel-fade white-text" data-ride="carousel">
+	<!-- Add data-interval="false" to the above div to stop auto slide. -->
+		<!--Indicators-->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-3" data-slide-to="1"></li>
+			<li data-target="#carousel-example-3" data-slide-to="2"></li>
+		</ol>
+		<!--/.Indicators-->
 
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+		<!--Slides-->
+		<div class="carousel-inner" role="listbox">
+
+			<!-- First slide -->
+			<div class="carousel-item active view hm-black-light">
+
+				<!-- Caption -->
+				<div class="full-bg-img flex-center white-text">
+					<ul class="animated fadeInUp col-md-12">
+						<li>
+							<h1 class="h1-responsive flex-item">Volcano</h1>
+							<li>
+								<p class="flex-item">Climb to the top and peer into the abyss.</p>
+							</li>
+							<li>
+								<a class="btn btn-primary btn-lg flex-item" rel="nofollow">Sign up!</a>
+							</li>
+							<li>
+								<a class="btn btn-default btn-lg flex-item"
+									rel="nofollow">Learn more</a>
+							</li>
+					</ul>
+				</div>
+				<!-- /.Caption -->
+
+			</div>
+			<!-- /.First slide -->
+
+			<!-- Second slide -->
+			<div class="carousel-item view hm-black-strong">
+
+				<!-- Caption -->
+				<div class="full-bg-img flex-center white-text">
+					<ul class="animated fadeInUp col-md-12">
+						<li>
+							<h1 class="h1-responsive flex-item">Green Mountain</h1>
+						</li>
+						<li>
+							<p class="flex-item">It's calling you.</p>
+						</li>
+						<li>
+							<a class="btn btn-primary btn-lg flex-item" rel="nofollow">Replenish your soul</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.Caption -->
+
+			</div>
+			<!-- /.Second slide -->
+
+			<!-- Third slide -->
+			<div class="carousel-item view hm-black-light">
+
+				<!-- Caption -->
+				<div class="full-bg-img flex-center white-text">
+					<ul class="animated fadeInUp col-md-12">
+						<li>
+							<h1 class="h1-responsive flex-item">Violet Sky</h1>
+						</li>
+						<li>
+							<p class="flex-item">Tranquil seas, violet skies.</p>
+						</li>
+						<li>
+							<a class="btn btn-default btn-lg flex-item" rel="nofollow">Book Now</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.Caption -->
+
+			</div>
+			<!-- /.Third slide -->
+
+		</div>
+		<!--/.Slides-->
+
+		<!--Controls-->
+		<a class="carousel-control-prev" href="#carousel-example-3" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+		<a class="carousel-control-next" href="#carousel-example-3" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+		<!--/.Controls-->
+	</div>
+	<!--/.Carousel Wrapper-->
+
+	</header>
+	<!--Main Navigation-->
+
+	<!--Main layout-->
+	<!-- <main> -->
+		<!-- <div class="container-fluid"> -->
+
+			<!--Your content goes here-->
+
+			<!--Your content goes here-->
+
+		<!-- </div> -->
+	<!-- </main> -->
+	<!--Main layout-->
+
+	<!--Footer-->
+	<footer class="page-footer center-on-small-only deep-purple mt-0">
+
+		<!--Footer Links-->
+		<div class="container-fluid">
+			<div class="row">
+
+				<!--First column-->
+				<div class="col-md-3 offset-lg-1 hidden-lg-down">
+					<h5 class="title">ABOUT NATURE ESCAPE</h5>
+					<p>We know the secret places on this planet where you can get away from it all.</p>
+
+					<p>If you want to go, just let us know.</p>
+				</div>
+				<!--/.First column-->
+
+				<hr class="hidden-md-up">
+
+				<!--Second column-->
+				<div class="col-lg-2 col-md-4 offset-lg-1">
+					<h5 class="title">Escapes</h5>
+					<ul>
+						<li><a href="#" data-target="#carousel-example-3" data-slide-to="0">Volcano</a></li>
+						<li><a href="#" data-target="#carousel-example-3" data-slide-to="1">Green Mountain</a></li>
+						<li><a href="#" data-target="#carousel-example-3" data-slide-to="2">Violet Sky</a></li>
+						<li><a href="https://teleportation-vacation.herokuapp.com/" target="_blank">Tropical Beach</a></li>
+					</ul>
+				</div>
+				<!--/.Second column-->
+
+				<hr class="hidden-md-up">
+
+				<!--Third column-->
+				<div class="col-lg-2 col-md-4">
+					<h5 class="title">About</h5>
+					<ul>
+						<li><a>Foundation</a></li>
+						<li><a>Our Team</a></li>
+						<li><a>Mission</a></li>
+						<li><a>Contact Us</a></li>
+					</ul>
+				</div>
+				<!--/.Third column-->
+
+				<hr class="hidden-md-up">
+
+				<!--Fourth column-->
+				<div class="col-lg-2 col-md-4">
+					<h5 class="title">Legal</h5>
+					<ul>
+						<li><a>Copyright</a></li>
+						<li><a>Representation</a></li>
+						<li><a>Insurance</a></li>
+						<li><a>Waivers</a></li>
+					</ul>
+				</div>
+				<!--/.Fourth column-->
+
+			</div>
+		</div>
+		<!--/.Footer Links-->
+
+		<hr>
+
+		<!--Call to action-->
+		<div class="call-to-action">
+			<h4>Nature Escape</h4>
+			<ul>
+				<li>
+					<h5>Book now:</h5>
+				</li>
+				<li><a class="btn btn-danger" rel="nofollow">Adventure</a></li>
+				<li><a class="btn btn-default" rel="nofollow">Tranquility</a></li>
+			</ul>
+		</div>
+		<!--/.Call to action-->
+
+		<!--Copyright-->
+		<div class="footer-copyright">
+			<div class="container-fluid">
+				&copy; 2015 Copyright: <a href="http://www.MDBootstrap.com" target="_blank"> MDBootstrap.com </a>
+
+			</div>
+		</div>
+		<!--/.Copyright-->
+
+	</footer>
+	<!--/.Footer-->
+
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
 
 </html>
